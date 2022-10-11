@@ -1,0 +1,5 @@
+let express = require('express')
+let app = express()
+app.enable('trust proxy')
+console.log(app.enabled('trust proxy'))
+app.listen(3000)

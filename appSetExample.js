@@ -1,0 +1,5 @@
+let express=require('express')
+let ejs=require('ejs')
+let app =express()
+app.set('view engine','ejs')
+app.listen(3000)
