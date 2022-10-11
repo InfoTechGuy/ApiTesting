@@ -9,7 +9,7 @@ let courses=[
     {id:0,title:'API'},
     {id:1,title:'Javascript'}
 ];
-
+//nice
 let bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json())
